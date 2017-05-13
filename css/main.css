@@ -1,0 +1,412 @@
+
+
+/* ==========================================================================
+   Style do strony Megafoll
+   ========================================================================== */
+
+a {
+    color: #ffffff;
+}
+
+.btn-icon-left {
+    margin-right: 10px;
+    font-size: 1.4em !important;
+}
+
+.btn-std {
+    background: rgba(0, 0, 0, 0.7);
+    color: #dbb232;
+    font-shadow: none;
+    letter-spacing: 0.08em;
+    padding: 10px 20px 10px 20px;
+}
+
+.btn:hover {
+    background: rgba(0, 0, 0, 0.5);
+    color: #dbb232;
+}
+
+.btn:visited {
+    background: rgba(0, 0, 0, 0.7);
+    color: #dbb232;
+}
+
+body {
+    background-image: url('../img/tlo01xs.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 0px;
+}
+
+
+.carousel-caption {
+    text-shadow: none;
+    bottom: 20px;
+}
+
+    .carousel-caption > h2 {
+        font-size: 1.8em;
+        background: rgba(0, 0, 0, 0.6);
+        padding: 10px 10px 10px 10px;
+        text-transform: uppercase;
+    }
+
+    .carousel-caption > p {
+        font-size: 1.1em;
+        background: rgba(255, 255, 255, 0.85);
+        color: #000000;
+        padding: 10px 10px 10px 10px;
+        font-weight: normal;
+    }
+
+
+
+.footer-copyrights {
+    font-size: 0.8em;
+}
+
+    .footer-copyrights a:hover {
+        color: #ffffff;
+    }
+
+.logo-folie-okienne {
+    opacity: 0.93;
+    color: #000000;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 12px;
+}
+
+    .logo-folie-okienne p {
+        text-transform: uppercase;
+        font-size: 1.0em;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background-color: #ffffff;
+        text-align: center;
+    }
+
+.logo-megafoll a {
+    color: #ffffff;
+    font-size: 1.5em;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+    .logo-megafoll a:hover {
+        color: #dbb232;
+        text-decoration: none;
+    }
+
+.menu-boczne {
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.menu-button-toggle {
+    margin-right: 0px;
+}
+
+.menu-email {
+    letter-spacing: 0.1em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.menu-hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.menu-logo-megafoll {
+    padding-top: 20px;
+}
+
+.menu-lokalizacja {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.menu-phone {
+    letter-spacing: 0.1em;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.menu-pomocnicze {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.menu-toggle-btn {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+    .menu-toggle-btn:hover {
+        background-color: #dbb232 !important;
+    }
+
+
+.my-navbar-collapse {
+    color: #ffffff;
+    opacity: 1.0;
+}
+
+
+.navbar {
+    position: relative;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.navbar-brand {
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.navbar-brand-p a {
+    color: #ffffff;
+    font-size: 1.45em;
+    font-weight: bold;
+    text-align: center;
+}
+
+    .navbar-brand-p a:hover {
+        color: #dbb232;
+    }
+
+.nav .open {
+}
+
+    .nav .open > a {
+        border: none;
+        background-color: #000000;
+    }
+
+        .nav .open > a:focus {
+            color: #ffffff;
+            background-color: #dbb232;
+        }
+
+        .nav .open > a:hover {
+            background-color: #dbb232;
+            color: #ffffff;
+        }
+
+.dropdown-menu {
+    background-color: #dbb232;
+    color: #ffffff;
+}
+
+
+    .dropdown-menu > li > a {
+        color: #ffffff;
+        background-color: #dbb232;
+        font-size: 0.9em;
+        background-image: none;
+    }
+
+
+        .dropdown-menu > li > a:hover {
+            color: #dbb232;
+            background-color: #000000;
+            background-image: none;
+        }
+
+
+.navbar-nav .active {
+    background-color: #dbb232;
+    color: #000000;
+}
+
+    .navbar-nav .active > a {
+        background-color: #dbb232;
+        color: #ffffff;
+    }
+
+        .navbar-nav .active > a:hover {
+            background-color: #dbb232;
+            color: #000000;
+        }
+
+.navbar-nav > li > a {
+    font-size: 1.0em;
+    letter-spacing: 0.06em;
+    color: #dbb232;
+}
+
+    .navbar-nav > li > a:hover {
+        color: #ffffff;
+        background-color: #dbb232;
+    }
+
+
+
+
+.navbar-toggle {
+}
+
+.nav-pills a:hover {
+    color: #000000;
+}
+
+.nav-pills > li > a:hover {
+    background-color: rgba(0,0,0,0.5);
+    color: #dbb232;
+}
+
+.nav-pills > li.active > a {
+    background-color: rgba(0,0,0,0.5);
+    color: #dbb232;
+}
+
+    .nav-pills > li.active > a:hover {
+        background-color: rgba(0,0,0,0.3);
+        color: #dbb232;
+    }
+
+.thumbnail {
+    background: rgba(255,255,255,0.0);
+    border: none;
+}
+
+    .thumbnail img {
+    }
+
+    .thumbnail h3 {
+        background: rgba(0,0,0,0.6);
+        color: #ffffff;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+.tresc-div {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 70px;
+}
+
+.tresc-p a {
+    opacity: 0.6;
+    background-color: #000000;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+    .tresc-p a:hover {
+        opacity: 0.8;
+        background-color: #000000;
+        padding-top: 2px;
+        padding-bottom: 2px;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: #dbb232;
+        text-decoration: none;
+    }
+
+
+
+
+
+.tresc-naglowek {
+    opacity: 0.7;
+    background-color: #000000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-shadow: none;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    margin-bottom: 30px;
+}
+
+.tresc-p {
+    text-align: justify;
+    margin-top: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.tresc-wyrozniony {
+    opacity: 0.5;
+    background-color: #000000;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-shadow: none;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    margin-bottom: 15px;
+}
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    body {
+        font-size: 13px;
+        background-image: url('../img/tlo01.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .logo-folie-okienne {
+        font-size: 1.1em;
+    }
+
+    .menu-logo-megafoll {
+        padding-top: 25px;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    body {
+        font-size: 13px;
+        background-image: url('../img/tlo01.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .menu-logo-megafoll {
+        padding-top: 25px;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    body {
+        font-size: 14px;
+        background-image: url('../img/tlo01.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .menu-logo-megafoll {
+        padding-top: 25px;
+    }
+}
